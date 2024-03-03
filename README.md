@@ -1,4 +1,4 @@
-It is a Fligt Booking named Indo-Jet.
+It is a Fligt Booking website named Indo-Jet.
 
 In this website you can search fligths and compare the rates. (This implementation is not done yet).
 
