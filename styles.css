@@ -192,6 +192,9 @@ form {
   border-radius: 5px;
   /* color: #eee; */
 }
+::placeholder {
+  font-family: inherit;
+}
 .grid-button {
   /* display: block; */
   align-self: flex-end;
@@ -621,7 +624,7 @@ form .subscribe-button {
 
 @media (max-width: 34em) {
   header {
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
   }
   .check-boxes label {
     font-size: 2rem;
@@ -630,7 +633,7 @@ form .subscribe-button {
     padding: 0 1rem;
     position: relative;
     border-radius: 0;
-    top: 50%;
+    top: 45%;
   }
   .from-to {
     grid-template-columns: 1fr;
