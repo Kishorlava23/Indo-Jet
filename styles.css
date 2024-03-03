@@ -621,6 +621,9 @@ form .subscribe-button {
   header {
     margin-bottom: 15rem;
   }
+  .check-boxes label {
+    font-size: 2rem;
+  }
   .header-container {
     padding: 0 1rem;
     position: relative;
