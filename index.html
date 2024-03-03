@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IndoJet</title>
+
+    <link rel="icon" type="image/x-icon" href="./logo.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img src="./images/logo1.png" alt="logo" />
+          <span>IndoJet</span>
+        </div>
+        <div class="nav-lists">
+          <ul class="nav-list">
+            <li><a class="list-nav" href="#">Home</a></li>
+            <li><a class="list-nav" href="#">Flights</a></li>
+            <li><a class="list-nav" href="#">Packages</a></li>
+            <li><a class="list-nav" href="#">My Trips</a></li>
+          </ul>
+        </div>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </nav>
+      <div class="header-container">
+        <form>
+          <div class="check-boxes">
+            <label>
+              <input
+                type="radio"
+                id="return"
+                value="return"
+                name="check"
+              />Return
+            </label>
+            <label>
+              <input
+                type="radio"
+                id="oneway"
+                value="return"
+                name="check"
+              />One-way
+            </label>
+          </div>
+          <div class="from-to">
+            <div class="grid-element">
+              <label for="from">From</label>
+              <div class="from">
+                <ion-icon
+                  class="airplane airplane-up"
+                  name="airplane-outline"
+                ></ion-icon>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="from"
+                  placeholder="From"
+                  name="from"
+                />
+              </div>
+            </div>
+
+            <div class="grid-element">
+              <label for="to">To</label>
+              <div class="from">
+                <ion-icon
+                  class="airplane airplane-down"
+                  name="airplane-outline"
+                ></ion-icon>
+                <input
+                  type="text"
+                  class="form-input"
+                  id="to"
+                  placeholder="To"
+                  name="to"
+                />
+              </div>
+            </div>
+
+            <div class="grid-element grid-button">
+              <button>Search Flights</button>
+            </div>
+
+            <div class="grid-element">
+              <label for="date-in">Departure</label>
+              <div class="from">
+                <input
+                  type="date"
+                  id="date-in"
+                  value="2024-03-03"
+                  class="form-input"
+                  name="departure"
+                />
+              </div>
+            </div>
+
+            <div class="grid-element">
+              <label for="passengers">Passengers</label>
+              <div class="from">
+                <input
+                  type="Number"
+                  class="form-input"
+                  id="passengers"
+                  placeholder="01"
+                  name="passengers"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="feature-section">
+        <div class="container-logos">
+          <img
+            class="logos"
+            src="./images/footer-trustlogo_new.png"
+            alt="logos"
+          />
+        </div>
+      </section>
+      <section class="information-section">
+        <div class="container">
+          <div class="information-div">
+            <div class="bell-icon">
+              <ion-icon name="shield-checkmark"></ion-icon>
+            </div>
+            <div class="information">
+              <h2>Important information for go first airlines customers</h2>
+              <p>Refunds and Assistance from Us.<a href="#">Click Here</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="care-for-you-section">
+        <div class="container">
+          <div class="care-header">
+            <h2>We care for <strong>You</strong></h2>
+            <p>Try a variety of benefits when using our services</p>
+          </div>
+          <div class="options">
+            <div class="booking">
+              <div class="icon">
+                <ion-icon name="airplane-outline"></ion-icon>
+              </div>
+              <h2>Fast Booking</h2>
+              <p>
+                We offer fast booking,fantastic products, competative pricing
+                and amazing experince
+              </p>
+            </div>
+            <div class="booking">
+              <div class="icon">
+                <ion-icon name="happy-outline"></ion-icon>
+              </div>
+              <h2>Exciting Deals</h2>
+              <p>
+                We offer fast booking,fantastic products, competative pricing
+                and amazing experince
+              </p>
+            </div>
+            <div class="booking">
+              <div class="icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <h2>24/7 support</h2>
+              <p>
+                We offer fast booking,fantastic products, competative pricing
+                and amazing experince
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular-section">
+        <div class="container popular">
+          <div class="popular-content">
+            <h2>Popular Flight Routes</h2>
+            <div class="grid">
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/delhi.jpg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Delhi Flights</h2>
+                  <p>From: <span>Mumbai,Pune</span></p>
+                </div>
+              </div>
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/mumbai.jpeg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Mumbai Flights</h2>
+                  <p>From: <span>Delhi,Ahmadebad</span></p>
+                </div>
+              </div>
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/bangolore.jpeg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Bangolore Flights</h2>
+                  <p>From: <span>Mumbai,Kolkata,Pune</span></p>
+                </div>
+              </div>
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/hyd.jpeg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Hyderabad Flights</h2>
+                  <p>From: <span>Mumbai,Delhi,Pune</span></p>
+                </div>
+              </div>
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/goa.jpg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Goa Flights</h2>
+                  <p>From: <span>Hyderabd,Mumbai,Indore</span></p>
+                </div>
+              </div>
+              <div class="route">
+                <div class="city-img">
+                  <img src="./images/kolkata.jpg" alt="delhi" />
+                </div>
+                <div class="city-route">
+                  <h2>Kolkata Flights</h2>
+                  <p>From: <span>Bangolore,Hyderabad</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news-letter-section">
+        <div class="new-container news">
+          <h2>Newsletter</h2>
+          <p>
+            Subscribe to our Newsletter and stay updated with our travel offers
+          </p>
+          <form class="form-news">
+            <p class="subscribe">
+              Enter your email address to subscribe <span>*</span>
+            </p>
+            <input
+              type="text"
+              class="news-input"
+              name="news"
+              placeholder="EMAIL"
+            />
+            <p class="request">Provide your email address to subscribe.</p>
+            <button class="subscribe-button">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid-footer">
+        <div class="contact">
+          <h2>Call Us</h2>
+          <a class="phone" href="tel:989878989">+91 9898788989</a>
+          <a class="phone" href="tel:989878989">+91 8483848587</a>
+          <h2>Email</h2>
+          <a class="phone" href="email:support@indojet.com"
+            >support@indojet.com</a
+          >
+          <p>KukatPally</p>
+          <p>Hyderabad. 504728</p>
+        </div>
+        <div class="lists">
+          <h2>Book Now</h2>
+          <ul class="footer-lists">
+            <li><a class="footer-link" href="#">Home</a></li>
+            <li><a class="footer-link" href="#">Flight</a></li>
+            <li><a class="footer-link" href="#">My Trips</a></li>
+            <li><a class="footer-link" href="#">Domestic Airlines</a></li>
+          </ul>
+        </div>
+        <div class="lists">
+          <h2>Packages</h2>
+          <ul class="footer-lists">
+            <li><a class="footer-link" href="#">Goa</a></li>
+            <li><a class="footer-link" href="#">Kashmir</a></li>
+            <li><a class="footer-link" href="#">Himachal</a></li>
+            <li><a class="footer-link" href="#">Kerala</a></li>
+            <li><a class="footer-link" href="#">Dubai</a></li>
+            <li><a class="footer-link" href="#">All Packages</a></li>
+          </ul>
+        </div>
+        <div class="lists">
+          <h2>Support</h2>
+          <ul class="footer-lists">
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+            <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            <li><a class="footer-link" href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="payment">
+          <h2>Make Payment</h2>
+          <img src="./images/payment-logo.png" alt="payment logo" />
+          <h2>Follow us</h2>
+          <div class="socail-links">
+            <ul class="socails">
+              <li>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        All Copyrights &copy; Recieved . Indojet Pvt Ltd 2024.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
