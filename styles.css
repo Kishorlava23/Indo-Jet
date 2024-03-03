@@ -261,6 +261,8 @@ form {
   width: 90%;
   padding: 1.5rem 3rem;
   margin-right: 2rem;
+  font-family: inherit;
+  background-color: #fff;
 }
 
 input[type="date"] {
@@ -628,7 +630,7 @@ form .subscribe-button {
     padding: 0 1rem;
     position: relative;
     border-radius: 0;
-    top: 55%;
+    top: 50%;
   }
   .from-to {
     grid-template-columns: 1fr;
